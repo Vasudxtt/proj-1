@@ -1,6 +1,7 @@
 function Race() {
+  const user= "ererer"
   return (
-      <h1>HellO!</h1>
+      <h1>HellO! {user}</h1>
   )
 }
 
