@@ -9,6 +9,8 @@ function App() {
 const addValue=()=>{
   console.log("value added" , Math.random());
   setCounter(counter+1)
+  // you acn aslo add prevcounter=>prevcounter+1==
+  // so what ahappens in it is preety simple that when we click the button then it takes the previous number and add one to it
   if(counter===20){
     setCounter(20)
   }
