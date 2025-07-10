@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
+Link
 export default function Home() {
   return (
     <div className="mx-auto w-full max-w-7xl">
@@ -31,12 +32,12 @@ export default function Home() {
         </div>
 
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-          <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+          <img className="w-96" src="https://media.gettyimages.com/id/1241808778/vector/brain-character-relax-on-the-beach.jpg?s=1024x1024&w=gi&k=20&c=ocADaPPBoDqOX_atbQdUVTN0WuzKcIjqlqFTt9Zie0U=" alt="image1" />
         </div>
       </aside>
 
       <div className="grid  place-items-center sm:mt-20">
-        <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+        <img className="sm:w-96 w-48" src="https://media.gettyimages.com/id/455465555/vector/beach-family.jpg?s=2048x2048&w=gi&k=20&c=cY3bJgDJ7NqWnlq1Ac45NpDHPa5z6pBRzJ_Ul5BrIus=" alt="image2" />
       </div>
 
       <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
